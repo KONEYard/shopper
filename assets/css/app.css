@@ -1,0 +1,141 @@
+:root {
+    --Hue: 29;
+    --Saturation: 100%;
+    --Lightness: 50%;
+
+    --BackgroundHue: 252;
+    --BackgroundSaturation: 30%;
+    --BackgroundLightness: 92%;
+    --BackgroundOpacity: 1;
+
+    --white: hsl(252, 30%, 100%);
+    --light: hsl(var(--BackgroundHue), var(--BackgroundSaturation), var(--BackgroundLightness));
+    --primary: hsl(252, 75%, 60%);
+    --info: hsl(280, 49%, 42%);
+    --secondary: hsl(252, 60%, 65%);
+    --danger: hsl(352, 81%, 50%);
+    --success: hsl(140, 87%, 34%);
+    --gray: hsl(252, 15%, 65%);
+    --dark: hsl(252, 30%, 17%);
+    --black: hsl(252, 30%, 10%);
+    --black-2: rgba(0,0,0,0.5);
+    --orange: hsl(var(--Hue), var(--Saturation), var(--Lightness), var(--BackgroundOpacity));
+    --gradient-orange: linear-gradient(to left, #cfb645, hsl(49, 100%, 27%), #cfb645, #cfb645, #cfb645, hsl(49, 100%, 30%));
+    --theme:rgb(255, 255, 255, .5);
+
+    --sticky-top-left: 5.7rem;
+    --sticky-top-right: 5.7rem;
+
+    --btn-padding: .6rem 2rem;
+    --border-radius: 2rem;
+    --card-padding: .7rem .9rem;
+    --card-border-radius: 1rem;
+    --search-padding: .4rem 1rem;
+}
+*, 
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    background-origin: border-box;
+}
+
+/* GENERAL STYLE */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--light);
+    color: var(--dark);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+.heading {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.profile_picture {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1/1 ;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    padding: var(--btn-padding);
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    transition: all .3s ease;
+    color: var(--white);
+}
+
+.btn:hover {
+    opacity: .8;
+    color: var(--white);
+}
+.btn-or {
+    background: var(--orange);
+}
+.btn-primary {
+    background: var(--primary);
+}
+.btn-secondary {
+    background: var(--secondary);
+}
+.btn-danger {
+    background: var(--danger);
+}
+.btn-info {
+    background: var(--info);
+}
+.btn-success {
+    background: var(--success);
+}
+.btn-dark{
+    background: var(--dark);
+}
+.btn-light {
+    background: var(--light);
+}
+.btn-gray {
+    background: var(--gray);
+}
+.btn-black {
+    background: var(--black);
+}
+.text_bold {
+    font-weight: 600;
+    font-style: normal;
+}
+.text_muted {
+    color: var(--gray);
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 79%;
+    }
+    .container {
+        width: 100%;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 65.3%;
+    }
+}
