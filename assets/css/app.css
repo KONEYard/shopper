@@ -1,3 +1,5 @@
+@import 'components/Section-1.css';
+
 :root {
     --Hue: 29;
     --Saturation: 100%;
@@ -18,7 +20,7 @@
     --gray: hsl(252, 15%, 65%);
     --dark: hsl(252, 30%, 17%);
     --black: hsl(252, 30%, 10%);
-    --black-2: rgba(0,0,0,0.5);
+    --black-2: rgba(252,30%,81%,0.5);
     --orange: hsl(var(--Hue), var(--Saturation), var(--Lightness), var(--BackgroundOpacity));
     --gradient-orange: linear-gradient(to left, #cfb645, hsl(49, 100%, 27%), #cfb645, #cfb645, #cfb645, hsl(49, 100%, 30%));
     --theme:rgb(255, 255, 255, .5);
@@ -71,7 +73,17 @@ img {
     width: 100%;
     display: block;
 }
-
+a{
+    text-decoration: none;
+    color: var(--black-2);
+    
+}
+a:hover {
+    text-decoration: none;
+}
+.orange {
+    color: var(--orange);
+}
 .btn {
     display: inline-block;
     padding: var(--btn-padding);
@@ -123,6 +135,10 @@ img {
 }
 .text_muted {
     color: var(--gray);
+}
+.text_center {
+    text-align: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 992px) {
