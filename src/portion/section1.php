@@ -7,37 +7,37 @@
                 <div class="wrapper">
                     <a href="#">
                         <div class="box">
-                            <img src="assets/image/clothe/complet-f-gris.png" alt="shopper | ">
+                            <img src="assets/image/complet-f-gris.png" alt="shopper | ">
                             <h4 class="title">Complet femme</h4>
                         </div>
                     </a>
                     <a href="#">
                         <div class="box">
-                            <img src="assets/image/electronic/clay_banks_tqytwfn1b_kS7Cm.jpg" alt="shopper |">
+                            <img src="assets/image/clay_banks_tqytwfn1b_kS7Cm.jpg" alt="shopper |">
                             <h4 class="title">Ordinateur Apple Bureau</h4>
                         </div>
                     </a>
                     <a href="#">
                         <div class="box">
-                            <img src="assets/image/plant/cactus.jpg" alt="shopper |">
+                            <img src="assets/image/cactus.jpg" alt="shopper |">
                             <h4 class="title"> Plante Cactus</h4>
                         </div>
                     </a>
                     <a href="#">
                         <div class="box">
-                            <img src="assets/image/clothe/complet-homme.png" alt="shopper |">
+                            <img src="assets/image/complet-homme.png" alt="shopper |">
                             <h4 class="title">Complet Homme</h4>
                         </div>
                     </a>
                     <a href="#">
                         <div class="box">
-                            <img src="assets/image/electronic/julian_o_hayon_hy3l4_2yfhX.jpg" alt="shopper |">
+                            <img src="assets/image/julian_o_hayon_hy3l4_2yfhX.jpg" alt="shopper |">
                             <h4 class="title">Pc Apple + mobile + montre</h4>
                         </div>
                     </a>
                     <a href="#">
                         <div class="box">
-                            <img src="assets/image/clothe/pull-adidas.jpg" alt="shopper |">
+                            <img src="assets/image/pull-adidas.jpg" alt="shopper |">
                             <h4 class="title">Pull addidas</h4>
                         </div>
                     </a>
