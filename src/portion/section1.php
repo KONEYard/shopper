@@ -5,42 +5,31 @@
                     <h5 class="text_muted text-center">Le top des trucs du shopping</h5>
                 </div>
                 <div class="wrapper">
-                    <a href="#">
-                        <div class="box">
-                            <img src="assets/image/complet-f-gris.png" alt="shopper | ">
-                            <h4 class="title">Complet femme</h4>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <img src="assets/image/clay_banks_tqytwfn1b_kS7Cm.jpg" alt="shopper |">
-                            <h4 class="title">Ordinateur Apple Bureau</h4>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <img src="assets/image/cactus.jpg" alt="shopper |">
-                            <h4 class="title"> Plante Cactus</h4>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <img src="assets/image/complet-homme.png" alt="shopper |">
-                            <h4 class="title">Complet Homme</h4>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <img src="assets/image/julian_o_hayon_hy3l4_2yfhX.jpg" alt="shopper |">
-                            <h4 class="title">Pc Apple + mobile + montre</h4>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <img src="assets/image/pull-adidas.jpg" alt="shopper |">
-                            <h4 class="title">Pull addidas</h4>
-                        </div>
-                    </a>
+                <?php 
 
+                   
+                $connect = DataBase::connect();
+
+                $statement = $connect->prepare('SELECT name, image FROM section1');
+                $statement->execute();
+                $section1 = $statement->fetchAll();
+
+                DataBase::disconnect();
+
+                    foreach($section1 as $row){
+
+                ?>
+                    <a href="#">
+                        <div class="box">
+                            <img src="assets/image/<?php echo $row['image']; ?>" alt="shopper | <?php echo $row['name']; ?>">
+                            <h4 class="title">
+                                <?php echo $row['name'] ;?>
+                            </h4>
+                        </div>
+                    </a>
+                    
+            <?php 
+                }
+            ?>
                 </div>
             </section>

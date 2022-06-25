@@ -21,6 +21,8 @@
     <section class="all ">
     <?php
 
+    include_once('./config/database.php');
+
     
         /* Header -->
         <!-- End Header -->
