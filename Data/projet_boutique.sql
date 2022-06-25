@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Sam 25 Juin 2022 à 22:10
+-- Généré le :  Sam 25 Juin 2022 à 22:33
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -58,7 +58,19 @@ CREATE TABLE IF NOT EXISTS `section2` (
   `image` varchar(255) NOT NULL,
   `price` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Contenu de la table `section2`
+--
+
+INSERT INTO `section2` (`id`, `name`, `image`, `price`) VALUES
+(1, 'Chemise homme', 'Chemise homme.jpg', 6000),
+(2, 'Polo homme', 'polo homme.jpg', 7000),
+(3, 'Veste homme', 'veste homme.jpg', 200000),
+(4, 'Veste femme', 'veste femme.jpg', 300000),
+(5, 'Montre femme', 'montre femme.jpg', 70000),
+(6, 'Bijoux femme', 'bijou femme.jpg', 900000);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
