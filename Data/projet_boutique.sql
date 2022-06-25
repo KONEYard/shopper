@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Sam 25 Juin 2022 à 22:39
+-- Généré le :  Dim 26 Juin 2022 à 00:37
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -44,7 +44,7 @@ INSERT INTO `section1` (`id`, `name`, `image`, `price`) VALUES
 (3, 'Plante Cactus', 'cactus.jpg', 1200),
 (4, 'Complet homme', 'complet-homme.png', 17000),
 (5, 'PC Apple + mobile + montre', 'julian_o_hayon_hy3l4_2yfhX.jpg', 800000),
-(6, 'Pull Adidas', 'clothe/pull-adidas.jpg', 25000);
+(6, 'Pull Adidas', 'pull-adidas.jpg', 25000);
 
 -- --------------------------------------------------------
 
