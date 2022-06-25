@@ -21,7 +21,7 @@
     <section class="all ">
     <?php
 
-    include_once('./config/database.php');
+    include('./config/database.php');
 
     
         /* Header -->
