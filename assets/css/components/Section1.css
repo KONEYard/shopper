@@ -4,12 +4,12 @@
     padding-bottom: 5rem;
     margin-top: 1rem;
 }
-.section-1 .wrapper {
+.wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
   grid-gap: 1.5rem;
 }
-.section-1 .wrapper .box {
+.wrapper .box {
     justify-content: center;
     align-items: center;
     border-radius: var(--card-border-radius);

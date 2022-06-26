@@ -1,23 +1,15 @@
 <section class="section-2">
 
                 <div class="head">
-                    <h3 class="heading text-uppercase">Acheter avec <span class="orange text_bold ">nous</span></h3>
-                    <h5 class="text_muted text-center">Le top des trucs du shopping</h5>
+                    <div class="sexe">
+                        <h3 class=" text-uppercase">Derniers arrivages  <span class="orange text_bold ">HOMMES </span></h3>
+                        <h3 class=" text-uppercase">Derniers arrivages  <span class="orange text_bold "> FEMMES</span></h3>
+                        
+                    </div>
                 </div>
                 <div class="wrapper">
                 <?php 
-
-                   
-                /*$connect = DataBase::connect();
-
-                $statement = $connect->prepare('SELECT name, image FROM section1');
-                $statement->execute();
-                $section1 = $statement->fetchAll();
-
-                DataBase::disconnect();*/
-
                 include_once("section2Model.php");
-                
 
                     foreach($section2 as $row){
 

@@ -1,0 +1,9 @@
+
+.head. sexe{
+    text-align: left;
+}
+
+.head .sexe {
+    display: flex;
+    justify-content: space-around;
+}
