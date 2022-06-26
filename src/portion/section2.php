@@ -14,14 +14,23 @@
                     foreach($section2 as $row){
 
                 ?>
-                    <a href="#">
-                        <div class="box">
+                    <div class="box">
+                        <a href="#">
                             <img src="assets/image/<?php echo $row['image']; ?>" alt="shopper | <?php echo $row['name']; ?>">
                             <h4 class="title">
                                 <?php echo $row['name'] ;?>
                             </h4>
+                            <span class="price">
+                                <?php echo $row['price']; ?> XOF
+                            </span>
+                        </a>
+                        <div class="link-actions">
+                            <span class="ex-price">
+                                <?php echo random_int(50000, 1000000); ?> XOF
+                            </span>
+                            <a href="#" class="btn btn-default">Voir</a>
                         </div>
-                    </a>
+                    </div>
                     
             <?php 
                 }

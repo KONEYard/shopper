@@ -118,7 +118,7 @@ a:hover {
     display: inline-block;
     padding: var(--btn-padding);
     cursor: pointer;
-    font-size: .9rem;
+    font-size: 1.3rem;
     font-weight: 500;
     border-radius: var(--border-radius);
     transition: all .3s ease;
@@ -159,6 +159,14 @@ a:hover {
 .btn-black {
     background: var(--black);
 }
+.btn-default {
+    background: var(--light);
+    color: var(--black);
+    font-weight: bold;
+}
+.btn-default:hover {
+    color: black;
+}
 .text_bold {
     font-weight: 600;
     font-style: normal;
@@ -170,7 +178,10 @@ a:hover {
     text-align: center;
     align-items: center;
 }
-
+.link-actions {
+    display: flex;
+    justify-content:space-between;
+}
 @media screen and (max-width: 992px) {
     html {
         font-size: 79%;

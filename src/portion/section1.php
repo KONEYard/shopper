@@ -23,17 +23,23 @@
 
                 ?>
                 
+                <div class="box">
                     <a href="#">
-                        <div class="box">
-                            <img src="assets/image/<?php echo $row['image']; ?>" alt="shopper | <?php echo $row['name']; ?>">
-                            <h4 class="title">
-                                <?php echo $row['name'] ;?>
-                            </h4>
-                            <span class="price">
-                                <?php echo $row['price']; ?>
-                            </span>
-                        </div>
+                        <img src="assets/image/<?php echo $row['image']; ?>" alt="shopper | <?php echo $row['name']; ?>">
+                        <h4 class="title">
+                            <?php echo $row['name'] ;?>
+                        </h4>
+                        <span class="price">
+                            <?php echo $row['price']; ?> XOF
+                        </span>
                     </a>
+                    <div class="link-actions">
+                        <span class="ex-price">
+                            <?php echo random_int(50000, 1000000); ?> XOF
+                        </span>
+                        <a href="#" class="btn btn-default">détails</a>
+                    </div>
+                </div>
                     
             <?php 
                 }
