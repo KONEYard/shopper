@@ -33,6 +33,7 @@
 
         // <!-- First section -->
         include 'src/portion/section1.php';
+        include 'src/portion/section2.php';
             
         // <!-- End first section -->
 

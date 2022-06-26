@@ -1,4 +1,4 @@
-<section class="section-1">
+<section class="section-2">
 
                 <div class="head">
                     <h3 class="heading text-uppercase">Acheter avec <span class="orange text_bold ">nous</span></h3>
@@ -16,13 +16,12 @@
 
                 DataBase::disconnect();*/
 
-                include_once("section1Model.php");
+                include_once("section2Model.php");
                 
 
-                    foreach($section1 as $row){
+                    foreach($section2 as $row){
 
                 ?>
-                
                     <a href="#">
                         <div class="box">
                             <img src="assets/image/<?php echo $row['image']; ?>" alt="shopper | <?php echo $row['name']; ?>">
@@ -35,6 +34,5 @@
             <?php 
                 }
             ?>
-            
                 </div>
             </section>
