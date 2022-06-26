@@ -29,6 +29,9 @@
                             <h4 class="title">
                                 <?php echo $row['name'] ;?>
                             </h4>
+                            <span class="price">
+                                <?php echo $row['price']; ?>
+                            </span>
                         </div>
                     </a>
                     

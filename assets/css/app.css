@@ -85,6 +85,20 @@ body {
 .wrapper .box img{
     height: max(15rem);
 }
+.price {
+    position: absolute;
+    margin-top: -18.7rem; 
+    padding: .2rem .3rem;
+    border-radius: 0 1rem 1rem 1rem;
+    font-weight: 600;
+    background: var(--orange);
+    color: var(--white);
+    box-shadow: .3rem .3rem orange;
+    border:1px solid 
+}
+.ex-price {
+    text-decoration: line-through;
+}
 img {
     width: 100%;
     display: block;
